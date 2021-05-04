@@ -1,0 +1,74 @@
+nav {
+    display: flex;
+    align-items: center;
+}
+header nav {
+    height: 40px;
+}
+header nav section a {
+    justify-content: flex-start;
+    margin: 0 auto;
+}
+header nav section a img {
+    margin-left: 20px;
+}
+header nav section ul {
+    justify-content: space-around;
+    /* margin: 0 auto; */
+}
+.main-section h1 {
+    padding-left: 50px;
+}
+.main-section p {
+    padding-left: 50px;
+}
+.ads-container {
+    display: flex;
+    padding: 20px;
+}
+.ads-container article  {
+    margin: 0 30px 0 0;
+}
+.ads-container article p {
+    margin: 30px 0;
+}
+.ads-container article h2 {
+    margin: 0;
+}
+.ads-container figure img {
+    margin: 0;
+    width: auto;
+    height: 210px;
+}
+.services-link {
+    display: flex;
+    flex-wrap: wrap;
+    width: 768px;
+    margin: 20px auto;
+}
+.cta {
+    display: flex;
+    padding: 0 30px;
+}
+.contact-container .cta h3 {
+    margin: 0;
+    padding: 20px 20px 20px 0;
+
+}
+.contact-container .cta a {
+    position: inherit;
+}
+.contact-container .help {
+    margin: 0 auto;
+    width: 80%;
+    height: 200px;
+    text-align: center;
+}
+.contact-container .help p {
+    text-align: center;
+}
+.social-link {
+    width: 40px;
+    height: 40px;
+    background-size: 40px 40px;
+}
